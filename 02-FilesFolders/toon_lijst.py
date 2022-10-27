@@ -19,3 +19,4 @@ for bestand in alle_bestanden:
     else:
         # Dit wordt uitgeveord als het geen file en geen dir is
         print(bestand.name + " (ONBEKEND TYPE")
+        
