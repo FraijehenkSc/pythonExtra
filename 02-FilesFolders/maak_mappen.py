@@ -10,7 +10,7 @@ while tekst_regel:
 
     # De regel op het scherm zetten:
     tekst_regel = tekst_regel.strip()
-    os.rmdir(tekst_regel)
+    os.mkdir(tekst_regel)
 
     # Volgende regel ophalen, zodat de while loop doorgaat
     tekst_regel = bestand.readline()
