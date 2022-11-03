@@ -13,3 +13,4 @@ if len(bestand) > 0:
         print("Dit bestand bestaat niet, sorry.")
 else:
     print("Geen invoer, script zal stoppen")
+
